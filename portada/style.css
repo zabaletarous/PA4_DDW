@@ -1,0 +1,96 @@
+*{
+    padding:3px 19px;
+    margin: 3px;
+}
+
+body{
+    background-image: url(IMAGENES/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 130%;
+}
+
+#inicio{
+    background-color: #cdf5f5;
+border-radius: 5%;
+}
+
+@font-face {
+    font-family: komikax;
+    src: url(fuente/KOMIKAX_.ttf);
+}
+
+h1{
+    font-family: komikax;
+    font-size: 100px;
+    text-align: center;
+color:#00144f;
+}
+
+.brief_c{
+    text-align: justify;
+    background-color: #cdf5f5;
+    padding: 20px;
+border-radius: 6%;
+}
+
+.brief_c, p{
+    text-align: justify;
+}
+
+#logo{
+    border-radius: 40%;
+}
+
+.principio{
+    display: flex;
+}
+
+.depar_piura{
+    font-style: italic;
+    font-size: 26px;
+}
+
+a{
+    color: #39059b;
+}
+
+a:hover{
+    color: #af7ac5;
+}
+
+@font-face {
+    font-family: hey;
+    src: url(fuente/Hey\ Comic.otf);
+}
+
+h2{
+    font-size: 38px;
+    font-family: hey;
+color:#0d4197;
+}
+
+h2:hover{
+    color: rgb(71, 136, 202);
+}
+
+p{
+font-size: 20px;
+}
+
+ol{
+font-size: 20px;
+}
+
+ul{
+font-size: 20px;
+}
+
+a{
+font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}

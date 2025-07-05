@@ -1,0 +1,141 @@
+*{
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background-image: url(imagenes/fondo.jpg);
+    background-size: 200%;
+
+}
+
+@font-face {
+    font-family: dumeshad;
+    src: url(fuentes/dum3shad.ttf);
+}
+
+h1{
+    font-size: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff8cf8;
+    padding: 20px;  
+    margin: 0;
+    z-index: 1000;
+    font-family: dumeshad;
+}
+
+@font-face {
+    font-family: manual;
+    src: url(fuentes/manual.otf);
+}
+
+h2{
+    font-size: 30px;
+    font-family: manual;
+}
+
+header{
+    display: flex;
+    margin-top: 80px;
+}
+
+.texto_descripcion{
+    background-color: #fbd8fd;
+    box-sizing: border-box;
+}
+
+.partes{
+    display: flex;
+    padding: 0;
+    text-align: justify;
+    background-color: #cdadcf;
+}
+
+@font-face {
+    font-family: jambo;
+    src: url(fuentes/DK\ Jambo.otf);
+}
+
+h3{
+    font-family: jambo;
+    font-size: 25px;
+    text-align: center;
+    background-color: #f79afc;
+    border-radius: 30%;
+}
+
+.cuadrado{
+    width: 260px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.circulo{
+    width: 260px;
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+display: block;
+}
+
+.Principal{
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+header, p{
+    text-align: justify;
+}
+
+.resaltado{
+    background-color: #222;
+    color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+a{
+    color: rgb(1, 113, 138);
+}
+
+a:hover{
+    color: rgb(141, 214, 238);
+}
+
+img{
+    border: solid 4px rgb(15, 1, 75);
+}
+.contenedor {
+    background-color: #4B004B;
+    display: inline-block;   
+    padding: 8px 12px;        
+    border-radius: 6px;        
+}
+
+.contenedor a {
+    color: #00ccff;     
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contenedor a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background: repeating-linear-gradient(
+    45deg,
+    #ccc,
+    #ccc 10px,
+    #eee 10px,
+    #eee 20px
+);
+padding: 30px;
+}
